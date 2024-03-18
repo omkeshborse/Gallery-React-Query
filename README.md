@@ -1,5 +1,5 @@
 ## Figma URL
-api key = 4ajIKy9936PoEprLl3ZLYPhfqqD1idS5xaSJIt4ba1Y
+
 [Unsplash Images](https://www.figma.com/file/O2MaAAlr4nznh7m53azatL/Unsplash-images?node-id=0%3A1&t=cYDOCgqOs9IX2If0-1)
 
 ## Steps
@@ -129,11 +129,11 @@ Finally, you can add CSS to your application to style the components and provide
 #### Dark Theme Class - Code
 
 ```js
-const body = document.querySelector('body');
-body.classList.toggle('dark-theme', newDarkTheme);
+const body = document.querySelector("body");
+body.classList.toggle("dark-theme", newDarkTheme);
 
 // alternative setup
-document.body.classList.toggle('dark-theme', newDarkTheme);
+document.body.classList.toggle("dark-theme", newDarkTheme);
 ```
 
 const body = document.querySelector('body'); - This line selects the body element of the current document using the document.querySelector() method, which returns the first element that matches the specified selector. In this case, it is selecting the body element.
